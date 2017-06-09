@@ -40,8 +40,6 @@ console.log(number);
 
   };
 
-
-
 // user interface logic
 $(document).ready(function() {
   $("form#userInput").submit(function(event) {
@@ -56,11 +54,8 @@ console.log(number);
     // }
 $("#result").append("<li>" + "/<li>");
 
-
-
-
-
 console.log(number);
 
     //  $("#result").show();
   });
+});  
