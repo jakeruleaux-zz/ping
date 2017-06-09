@@ -1,3 +1,10 @@
-/*#result {
+#result {
   display: none;
-}*/
+}
+
+body {
+  background-image: url("img/ping.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(244, 88, 166);
+}
