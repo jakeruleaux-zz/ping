@@ -3,7 +3,7 @@
 var count = function(number) {
   var counting = [];
   counting.push(count);
-
+  var result = [];
   for (var index = 0; index < counting.length; index += 1){
      if (counting[index] % 3) {
        $(".numbers").text("ping!");
@@ -11,10 +11,12 @@ var count = function(number) {
        $(".numbers").text("pong!");
      } else if (counting[index] % 15) {
        $(".numbers").text("PING-PONG!");
+      result.push(index);
+console.log(result);
      }
 
- // return result;
-  };
+     return result;
+};
 
 
 
@@ -38,7 +40,7 @@ console.log(number);
 //     $(".numbers").text("PING-PONG!");
 //   }
 
-  };
+};
 
 // user interface logic
 $(document).ready(function() {
@@ -46,16 +48,16 @@ $(document).ready(function() {
     event.preventDefault();
 
     var number = parseInt ($("input#number").val());
-    var result = count(number);
+    // var result = count(number);
 console.log(number);
 
     // if ("#number" === 0) {
     //   $("#result").text("Try again");
     // }
-$("#result").append("<li>" + "/<li>");
+    $("#result").append("<li>" + "</li>");
 
 console.log(number);
 
     //  $("#result").show();
   });
-});  
+});

@@ -11,9 +11,9 @@ _{User Inputs a number. The program counts to the inputted number replacing met 
 ## Setup/Installation Requirements
 
 * _Can be cloned from github at https://github.com/jakeruleaux/ping_
-* __
-* __
-* __
+* _Open terminal and add remote pasting in file url_
+* _Open in atom or open index.html to view in browser._
+* _(----more to come-----)_
 * __
 
 ## Specs
