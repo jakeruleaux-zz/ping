@@ -14,50 +14,18 @@ var count = function(number) {
       result.push(index);
 console.log(result);
      }
-
      return result;
 };
-
-
-
 console.log(number);
-
-
-//   var numberArr = [];
-//   $("input:[#number]").each(function() {
-//   var firstNumber = $(this).val();
-//   numberArr.push(number);
-// })
-//   for (var index = 0; index < numberArr.length; index += 1) {
-//     alert(index);
-// console.log(index);
-// return result;
-//   if (numberArr[index] % 3) {
-//     $(".numbers").text("ping!");
-//   } else if (numberArr[index] % 5) {
-//     $(".numbers").text("pong!");
-//   } else if (numberArr[index] % 15) {
-//     $(".numbers").text("PING-PONG!");
-//   }
-
 };
 
 // user interface logic
 $(document).ready(function() {
   $("form#userInput").submit(function(event) {
     event.preventDefault();
-
     var number = parseInt ($("input#number").val());
-    // var result = count(number);
 console.log(number);
-
-    // if ("#number" === 0) {
-    //   $("#result").text("Try again");
-    // }
     $("#result").append("<li>" + "</li>");
-
 console.log(number);
-
-    //  $("#result").show();
   });
 });
