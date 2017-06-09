@@ -10,11 +10,11 @@ _{User Inputs a number. The program counts to the inputted number replacing met 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Can be cloned from github at https://github.com/jakeruleaux/ping_
+* __
+* __
+* __
+* __
 
 ## Specs
 _{-Program issues and error when number is uncountable.
