@@ -14,13 +14,10 @@ $(document).ready(function() {
     var number = parseInt($("input#numer").val());
     var result = count(number);
 
-    $(".year").text(year);
+    $(".numbers").text(number);
 
-    if (!result) {                 // same as writing if (result === false)
-      $(".not").text("not");
-    } else {
-      $(".not").text("");
-    }
+             // same as writing if (result === false)
+    
 
     $("#result").show();
   });
