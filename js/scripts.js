@@ -1,4 +1,4 @@
-// business logic
+// business logic//
 
 var count = function(number) {
   var counting = [];
@@ -14,10 +14,10 @@ var count = function(number) {
     //   result.push(index);
 console.log(result);
      }
-    //  return result;
+
 };
 console.log();
-// };
+
 
 // user interface logic
 $(document).ready(function() {
